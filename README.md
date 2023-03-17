@@ -3,6 +3,9 @@ This is a tutorial for using git on your local system. Firstly, you need to inst
 - VSCode - [Installation Link](https://code.visualstudio.com/download)
 - Git - [Installation Link](https://git-scm.com/downloads)
 
+## Direct GitHub Upload
+![image](github_file_upload.gif)
+
 ## Cloning Repository
 The following are the steps to clone repository in your local system:
 1. Switch to the folder you want to clone the repository.
