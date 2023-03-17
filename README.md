@@ -48,3 +48,28 @@ Use the below code to push the added and commited changes to the repository:
 ```
 git push -u origin <BRANCH NAME>
 ```
+
+## Adding Large Files using Git LFS
+In order to add files above 25 MB on GitHub, you'll need to use Git LFS library. Use the below command to install git lfs.
+```
+git lfs install
+```
+1. For pushing one large file use the below command:
+```
+git lfs track "<FILENAME>"
+git add <FILENAME>
+```
+2. For pushing large folder use the code below:
+```
+git lfs track "<FILEPATH>/**"
+git add "<FILEPATH>/"
+```
+Once you use LFS, there will be a new file created called ".gitattributes"
+```
+git add .gitattributes
+```
+Then you can commit the files and push the code.
+```
+git commit -m "<ADD COMMENTS>"
+git push -u origin <BRANCH NAME>
+```
